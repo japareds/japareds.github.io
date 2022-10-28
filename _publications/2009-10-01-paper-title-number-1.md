@@ -1,7 +1,7 @@
 ---
 title: "Non-linear models for black carbon exposure modelling using air pollution datasets"
 collection: publications
-permalink: /publication/2022-BC
+permalink: /publications/2022-BC
 excerpt: 'This paper is about a Black carbon (BC) proxy model using machine learning algorithms'
 date: 2022-09-1
 venue: 'Environmental research'
