@@ -1,15 +1,10 @@
 ---
-title: "Paper Title Number 1"
+title: "Non-linear models for black carbon exposure modelling using air pollution datasets"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2022-BC
+excerpt: 'This paper is about a Black carbon (BC) proxy model using machine learning algorithms'
+date: 2022-09-1
+venue: 'Environmental research'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S0013935122005965'
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Black carbon (BC) is a product of incomplete combustion, present in urban aerosols and sourcing mainly from road traffic. Epidemiological evidence reports positive associations between BC and cardiovascular and respiratory disease. Despite this, BC is currently not regulated by the EU Air Quality Directive, and as a result BC data are not available in urban areas from reference air quality monitoring networks in many countries. To fill this gap, a machine learning approach is proposed to develop a BC proxy using air pollution datasets as an input. The proposed BC proxy is based on two machine learning models, support vector regression (SVR) and random forest (RF), using observations of particle mass and number concentrations (N), gaseous pollutants and meteorological variables as the input. Experimental data were collected from a reference station in Barcelona (Spain) over a 2-year period (2018–2019). Two months of additional data were available from a second urban site in Barcelona, for model validation. BC concentrations estimated by SVR showed a high degree of correlation with the measured BC concentrations (R2 = 0.828) with a relatively low error (RMSE = 0.48 μg/m3). Model performance was dependent on seasonality and time of the day, due to the influence of new particle formation events. When validated at the second station, performance indicators decreased (R2 = 0.633; RMSE = 1.19 μg/m3) due to the lack of N data and PM2.5 and the smaller size of the dataset (2 months). New particle formation events critically impacted model performance, suggesting that its application would be optimal in environments where traffic is the main source of ultrafine particles. Due to its flexibility, it is concluded that the model can act as a BC proxy, even based on EU-regulatory air quality parameters only, to complement experimental measurements for exposure assessment in urban areas.
