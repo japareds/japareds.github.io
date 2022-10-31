@@ -8,6 +8,9 @@ main:
     
   - title: "Projects"
     url: /projects/
+    
+  - title: "Data sets"
+    url: /datasets/
              
   - title: "Links of Interest"
     url: /links/
