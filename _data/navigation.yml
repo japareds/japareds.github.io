@@ -5,10 +5,7 @@ main:
 
   - title: "Publications"
     url: /publications/
-    
-  - title: "Projects"
-    url: /projects/
-    
+        
   - title: "Data sets"
     url: /datasets/
              
