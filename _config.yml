@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Juan Paredes"
 title_separator          : "-"
 name                     : &name "Juan Paredes"
-description              : &description "PhD student"
+description              : &description "PhD candidate"
 url                      : https://japareds.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "japareds/japareds.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Juan Paredes"
   avatar           : "Juan_Paredes_foto_original.png"
-  bio              : "PhD student and data scientist"
+  bio              : "PhD candidate and data scientist"
   location         : "Barcelona, Spain"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
