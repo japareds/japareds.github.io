@@ -1,10 +1,26 @@
 ---
-title: "Non-linear models for black carbon exposure modelling using air pollution datasets"
+title: "Robust Proxy Sensor Model for Estimating Black Carbon
+Concentrations Using Low-Cost Sensors"
 collection: publications
 permalink: /publications/2022-BC
-excerpt: 'In this paper a machine learning approach is proposed to develop a Black Carbon (BC) proxy using air pollution datasets as an input.'
-date: 2022-09-1
-venue: 'Environmental research'
+excerpt: 'A robust data quality piepline to integrate low-cost sensors into an air monitoring network.'
+date: 2022-06-18
+venue: 'Association for Computing Machinery'
 paperurl: 'https://digital.csic.es/bitstream/10261/331330/1/3597064.3597316.pdf'
 ---
-Black carbon (BC) is a product of incomplete combustion, present in urban aerosols and sourcing mainly from road traffic. Epidemiological evidence reports positive associations between BC and cardiovascular and respiratory disease. Despite this, BC is currently not regulated by the EU Air Quality Directive, and as a result BC data are not available in urban areas from reference air quality monitoring networks in many countries. To fill this gap, a machine learning approach is proposed to develop a BC proxy using air pollution datasets as an input. The proposed BC proxy is based on two machine learning models, support vector regression (SVR) and random forest (RF), using observations of particle mass and number concentrations (N), gaseous pollutants and meteorological variables as the input. Experimental data were collected from a reference station in Barcelona (Spain) over a 2-year period (2018–2019). Two months of additional data were available from a second urban site in Barcelona, for model validation. BC concentrations estimated by SVR showed a high degree of correlation with the measured BC concentrations (R2 = 0.828) with a relatively low error (RMSE = 0.48 μg/m3). Model performance was dependent on seasonality and time of the day, due to the influence of new particle formation events. When validated at the second station, performance indicators decreased (R2 = 0.633; RMSE = 1.19 μg/m3) due to the lack of N data and PM2.5 and the smaller size of the dataset (2 months). New particle formation events critically impacted model performance, suggesting that its application would be optimal in environments where traffic is the main source of ultrafine particles. Due to its flexibility, it is concluded that the model can act as a BC proxy, even based on EU-regulatory air quality parameters only, to complement experimental measurements for exposure assessment in urban areas.
+Air quality monitoring sensor networks focusing on air pollution
+measure pollutants that are regulated by the authorities, such as CO,
+NO2, NO, SO2, O3, and particulate matter (PM10, PM2.5). However,
+there are other pollutants, such as black carbon (BC), which are
+not regulated, have a major impact on health, and are rarely mea-
+sured. One solution is to use proxies, which consist of creating a
+mathematical model that infers the measurement of the pollutant
+from indirect measurements of other pollutants. In this paper, we
+propose a robust machine learning proxy (RMLP) framework for
+estimating BC based on nonlinear machine learning methods, cali-
+brating the low-cost sensors (LCSs), and adding robustness against
+noise and data missing in the LCS. We show the impact of LCS data
+aggregation, denoising and missing imputation on BC estimation,
+and how the concentrations estimated by the BC proxy approximate
+the values obtained by a reference instrument with an accurate BC
+sensor.
