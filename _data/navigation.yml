@@ -2,9 +2,6 @@
 main:
   - title: "Research"
     url: /research/
-
-  - title: "Publications"
-    url: /publications/
         
   - title: "Links of Interest"
     url: /links/
