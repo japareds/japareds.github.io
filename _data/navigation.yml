@@ -2,6 +2,8 @@
 main:
   - title: "Research"
     url: /research/
+  - title: "Code"
+    url: /code/
   - title: "CV"
     url: /files/JuanParedes_CV.pdf
   - title: "Links of Interest"
